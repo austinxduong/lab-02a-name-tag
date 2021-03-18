@@ -47,6 +47,10 @@ h2,h3 {
 }
 
 .bottom {
-    background-color: red
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: columns:
+    background-color: red;
     border-radius: 0px 0px 5px 5px
 }
