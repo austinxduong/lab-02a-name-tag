@@ -1,0 +1,52 @@
+body, html {
+    height 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    display: :flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    height: 280px
+    width: 400px
+    gride-template-rows: 1fr 1fr 1fr
+}
+
+h2,h3 {
+    margin: 0
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    color: white
+    border-radius: 5px 5px 0px 0px 
+    font-family; Arial, Helvectica, sans-serif;
+    text-transform: uppercase
+}
+
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: cursive;
+    font-size: 4rem;
+    overflow: visible;
+}
+
+.bottom {
+    background-color: red
+    border-radius: 0px 0px 5px 5px
+}
